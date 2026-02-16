@@ -3,10 +3,14 @@ name = "job-search-project"
 version = "0.1.0"
 description = ""
 authors = ["ildar_safarov <ildarsafarov555@gmail.com>"]
+packages = [{ include = "job_search_project", from = "src" }]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.13"
+requests = "^2.32.5"
+psycopg2-binary = "^2.9.11"
+python-dotenv = "^1.2.1"
 
 
 [build-system]
